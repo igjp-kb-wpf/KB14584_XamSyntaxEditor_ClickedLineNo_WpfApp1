@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Infragistics.WPF.SyntaxEditor" Version="24.1.57" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\NIshibashi\Cases\KB\14584\KB14584_XamSyntaxEditor_ClickedLineNo_WpfApp1\KB14584_XamSyntaxEditor_ClickedLineNo_WpfApp1\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\NIshibashi\Cases\KB\14584\KB14584_XamSyntaxEditor_ClickedLineNo_WpfApp1\KB14584_XamSyntaxEditor_ClickedLineNo_WpfApp1\.editorconfig" />
+  </ItemGroup>
+
+</Project>
